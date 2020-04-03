@@ -48,9 +48,30 @@ namespace 基于TCP协议的Socket编程_聊天室
                 //等待客户端连接 并且创建一个负责通讯的Socket
                 Socket socketSend = socketWatch.Accept();
                 ShowMsg(socketSend.RemoteEndPoint.ToString() + ":" + "连接成功");
+                //开启一个新线程，不停地接受客户端发来的消息
+                Thread th = new Thread(Receive);
+                th.IsBackground = true;
+                th.Start(socketSend);
             }
         }
 
+        /// <summary>
+        /// 服务器端不停地接受客户端发来的消息
+        /// </summary>
+        /// <param name="o"></param>
+        void Receive (object o)
+        {
+            Socket socketSend = o as Socket;
+            while (true)
+            {
+                //客户端连接成功后，服务器应该接受客户端发来的消息
+                byte[] buffer = new byte[1024 * 1024 * 2];
+                //实际接收到的有效字符
+                int r = socketSend.Receive(buffer);
+                string str = Encoding.UTF8.GetString(buffer, 0, r);
+                ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+            }
+        }
         void ShowMsg (string str)
         {
             txtLog.AppendText(str + "\r\n");
