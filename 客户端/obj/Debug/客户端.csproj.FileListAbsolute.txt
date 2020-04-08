@@ -2,9 +2,9 @@ F:\基于TCP协议的Socket编程_聊天室\客户端\bin\Debug\客户端.exe.co
 F:\基于TCP协议的Socket编程_聊天室\客户端\bin\Debug\客户端.exe
 F:\基于TCP协议的Socket编程_聊天室\客户端\bin\Debug\客户端.pdb
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.csprojAssemblyReference.cache
-F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.Form1.resources
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.Properties.Resources.resources
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.csproj.GenerateResource.cache
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.csproj.CoreCompileInputs.cache
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.exe
 F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.pdb
+F:\基于TCP协议的Socket编程_聊天室\客户端\obj\Debug\客户端.客户端.resources

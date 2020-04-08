@@ -9,8 +9,8 @@ C:\Users\cxq\source\repos\基于TCP协议的Socket编程_聊天室\基于TCP协�
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\bin\Debug\基于TCP协议的Socket编程_聊天室.exe
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\bin\Debug\基于TCP协议的Socket编程_聊天室.pdb
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.csprojAssemblyReference.cache
-F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.Form1.resources
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.csproj.GenerateResource.cache
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.csproj.CoreCompileInputs.cache
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.exe
 F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.pdb
+F:\基于TCP协议的Socket编程_聊天室\基于TCP协议的Socket编程_聊天室\obj\Debug\基于TCP协议的Socket编程_聊天室.服务器端.resources

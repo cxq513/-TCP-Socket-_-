@@ -18,7 +18,7 @@ namespace 基于TCP协议的Socket编程_聊天室
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // 用Form2作为启动窗体
-            Application.Run(new Form1());
+            Application.Run(new 服务器端());
         }
     }
 }

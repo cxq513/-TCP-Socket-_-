@@ -1,6 +1,6 @@
 ﻿namespace 客户端
 {
-    partial class Form1
+    partial class 客户端
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -134,9 +134,9 @@
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(100, 21);
             this.txtServer.TabIndex = 11;
-            this.txtServer.Text = "192.168.1.107";
+            this.txtServer.Text = "192.168.1.103";
             // 
-            // Form1
+            // 客户端
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +152,7 @@
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.txtPort);
             this.Controls.Add(this.txtServer);
-            this.Name = "Form1";
+            this.Name = "客户端";
             this.Text = "客户端";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

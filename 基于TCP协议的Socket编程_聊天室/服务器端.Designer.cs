@@ -1,6 +1,6 @@
 ﻿namespace 基于TCP协议的Socket编程_聊天室
 {
-    partial class Form1
+    partial class 服务器端
     {
         /// <summary>
         /// Required designer variable.
@@ -34,11 +34,11 @@
             this.cboUsers = new System.Windows.Forms.ComboBox();
             this.txtLog = new System.Windows.Forms.TextBox();
             this.txtMsg = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.txtPath = new System.Windows.Forms.TextBox();
+            this.btnSendFile = new System.Windows.Forms.Button();
+            this.btnSelect = new System.Windows.Forms.Button();
             this.btnSend = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnShaking = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtServer
@@ -92,30 +92,32 @@
             this.txtMsg.TabIndex = 5;
             this.txtMsg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMsg_KeyDown);
             // 
-            // textBox5
+            // txtPath
             // 
-            this.textBox5.Location = new System.Drawing.Point(58, 390);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(315, 21);
-            this.textBox5.TabIndex = 6;
+            this.txtPath.Location = new System.Drawing.Point(58, 390);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(315, 21);
+            this.txtPath.TabIndex = 6;
             // 
-            // button2
+            // btnSendFile
             // 
-            this.button2.Location = new System.Drawing.Point(481, 388);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "发送文件";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSendFile.Location = new System.Drawing.Point(481, 388);
+            this.btnSendFile.Name = "btnSendFile";
+            this.btnSendFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSendFile.TabIndex = 7;
+            this.btnSendFile.Text = "发送文件";
+            this.btnSendFile.UseVisualStyleBackColor = true;
+            this.btnSendFile.Click += new System.EventHandler(this.btnSendFile_Click);
             // 
-            // button3
+            // btnSelect
             // 
-            this.button3.Location = new System.Drawing.Point(390, 388);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "选择";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSelect.Location = new System.Drawing.Point(390, 388);
+            this.btnSelect.Name = "btnSelect";
+            this.btnSelect.Size = new System.Drawing.Size(75, 23);
+            this.btnSelect.TabIndex = 8;
+            this.btnSelect.Text = "选择";
+            this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // btnSend
             // 
@@ -127,32 +129,33 @@
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
-            // button5
+            // btnShaking
             // 
-            this.button5.Location = new System.Drawing.Point(390, 359);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "震动";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnShaking.Location = new System.Drawing.Point(390, 359);
+            this.btnShaking.Name = "btnShaking";
+            this.btnShaking.Size = new System.Drawing.Size(75, 23);
+            this.btnShaking.TabIndex = 10;
+            this.btnShaking.Text = "震动";
+            this.btnShaking.UseVisualStyleBackColor = true;
+            this.btnShaking.Click += new System.EventHandler(this.btnShaking_Click);
             // 
-            // Form1
+            // 服务器端
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 450);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnShaking);
             this.Controls.Add(this.btnSend);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnSelect);
+            this.Controls.Add(this.btnSendFile);
+            this.Controls.Add(this.txtPath);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.cboUsers);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.txtPort);
             this.Controls.Add(this.txtServer);
-            this.Name = "Form1";
+            this.Name = "服务器端";
             this.Text = "服务器";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -168,10 +171,10 @@
         private System.Windows.Forms.ComboBox cboUsers;
         private System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.TextBox txtMsg;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txtPath;
+        private System.Windows.Forms.Button btnSendFile;
+        private System.Windows.Forms.Button btnSelect;
         private System.Windows.Forms.Button btnSend;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnShaking;
     }
 }
